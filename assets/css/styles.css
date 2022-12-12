@@ -8,5 +8,76 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
+}
+
+/*==========common=========== */
+.content {
+    width: 1110px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 98px;
+    background: #0f1b4c;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 18px 16px;
+}
+
+/* =========Header========= */
+.header {
+    height: 100vh; /* laaps ddayaf trang */
+    background-color: #e6f0ff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 38px;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: 50px;
+}
+
+.navbar li:hover {
+    text-decoration: underline;
+}
+
+.navbar .actions {
+    margin-left: auto;
+}
+
+.navbar ul a {
+    font-size: 1.4rem;
+    color: #4f5361;
+    padding: 8px 14px;
+}
+
+.navbar .action-link {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #0f1b4c;
+}
+
+/* btn action link */
+.navbar .action-btn {
+    padding: 13px 16px;
+    margin-left: 18px;
+}
+
+.navbar .action-btn:hover {
+    opacity: 0.9;
 }

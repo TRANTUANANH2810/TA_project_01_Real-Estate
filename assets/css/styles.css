@@ -45,6 +45,7 @@ a {
 
 /* =========Header========= */
 .header {
+    position: relative;
     height: 100vh; /* laaps ddayaf trang */
     background-color: #e6f0ff;
 }
@@ -124,4 +125,12 @@ a {
 .hero-cta {
     margin-top: 30px;
     min-width: 170px;
+}
+
+/* ======= img hero ======== */
+.hero-img {
+    width: 35%;
+    position: absolute;
+    bottom: 0;
+    right: calc((100vw - 1110px) / 2 - 100px);
 }

@@ -87,7 +87,7 @@ a {
     margin-left: 18px;
 }
 
-/* ==============Hero============== */
+/* hero */
 .hero {
     margin-top: 130px;
 }
@@ -127,10 +127,43 @@ a {
     min-width: 170px;
 }
 
-/* ======= img hero ======== */
+/* img hero */
 .hero-img {
     width: 35%;
     position: absolute;
     bottom: 0;
-    right: calc((100vw - 1110px) / 2 - 100px);
+    right: calc((100vw - 1110px) / 2 - 100px); /*100vw = chiều rộng màn hình*/
+}
+
+/* ============  clients ================ */
+
+.clients {
+    margin-top: 122px;
+}
+
+.clients img {
+}
+
+.clients .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients .desc-row {
+    margin-top: 23px;
+}
+
+.clients .desc {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    /* identical to box height, or 125% */
+    color: #7d8589;
+}
+
+.clients .images {
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

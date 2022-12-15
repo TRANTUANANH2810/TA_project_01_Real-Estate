@@ -43,6 +43,15 @@ a {
     opacity: 0.9;
 }
 
+/* an so dong neu bij nhieu */
+.line-clamp {
+    /* an so dong neu so dong vuot qua 2 dong */
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 2); /* toi da 2 dong*/
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 /* =========Header========= */
 .header {
     position: relative;
@@ -251,4 +260,112 @@ a {
 
 .guider-cta .btn {
     min-width: 170px;
+}
+
+/* ============= featured properties ============== */
+
+.featured {
+    margin-top: 120px;
+    padding: 110px 0;
+    background: #f5fafe;
+}
+
+.featured .sub-title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    /* identical to box height, or 100% */
+    color: #000339;
+}
+
+.featured .row {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.featured .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+    color: #5a6473;
+}
+
+.featured .link {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    /* identical to box height */
+    color: #0689ff;
+}
+
+.featured .arrow {
+    margin-left: 8px;
+}
+
+/* list feature  */
+
+.featured .list {
+    display: flex;
+    gap: 30px; /* khopang cach anh la 30px*/
+    margin-top: 70px;
+}
+
+.featured .item {
+    flex: 1; /* bawngf nhua veef chieeuf ngang*/
+}
+
+.featured .item .thumb {
+    width: 100%;
+    height: 227px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.featured .item .body {
+    padding: 17px 20px 24px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.featured .item .title a {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #000339;
+}
+
+.featured .item .desc {
+    --line-clamp: 3;
+    margin-top: 11px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #a3a6ab;
+    word-break: break-all; /* bor qua taats car*/
+}
+.featured .item .info {
+    display: flex;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.featured .item .icons {
+    margin-left: 23px;
+}
+
+.featured .item .icons:first-child {
+    margin-left: 0;
+}
+
+.featured .item .label {
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    color: #4d4d52;
 }

@@ -6,6 +6,11 @@
     --primary-color: #0f1b4c;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -66,7 +71,7 @@ a {
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 100vh; /* laaps ddayaf trang */
+    height: calc(100vh - 90px); /* laaps ddayaf trang */
     background-color: #e6f0ff;
 }
 

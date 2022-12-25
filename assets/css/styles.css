@@ -53,7 +53,18 @@ a {
 }
 
 /* =========Header========= */
-.header {
+
+.fix-header {
+    background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
     position: relative;
     height: 100vh; /* laaps ddayaf trang */
     background-color: #e6f0ff;
@@ -62,7 +73,8 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px 0;
+    /* padding-top: 38px; */
 }
 
 .navbar ul {
@@ -99,7 +111,7 @@ a {
 
 /* hero */
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .hero .info {
